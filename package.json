@@ -1,0 +1,21 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "dev": "node index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@zeit/fetch-retry": "^4.0.0",
+    "cheerio": "^1.0.0-rc.3",
+    "dotenv": "^7.0.0",
+    "es6-promise": "^4.2.6",
+    "isomorphic-fetch": "^2.2.1",
+    "knex": "^0.16.5",
+    "lodash": "^4.17.11",
+    "mysql": "^2.16.0"
+  }
+}
